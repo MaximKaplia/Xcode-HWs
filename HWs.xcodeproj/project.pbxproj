@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,11 @@
 		CE078E0E29D9C01600AE065C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE078E0C29D9C01600AE065C /* Main.storyboard */; };
 		CE078E1029D9C01700AE065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE078E0F29D9C01700AE065C /* Assets.xcassets */; };
 		CE078E1329D9C01700AE065C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE078E1129D9C01700AE065C /* LaunchScreen.storyboard */; };
+		CE549A4229E0E2C9001FAFEC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE549A4129E0E2C9001FAFEC /* ThirdViewController.swift */; };
+		CE549A4529E0E30B001FAFEC /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE549A4429E0E30B001FAFEC /* ForthViewController.swift */; };
+		CE549A4829E0E347001FAFEC /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE549A4729E0E347001FAFEC /* FifthViewController.swift */; };
+		CE549A4B29E0F482001FAFEC /* MyStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE549A4A29E0F482001FAFEC /* MyStrings.swift */; };
+		CED490B829DE1E780028F83F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED490B729DE1E780028F83F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		CE078E0F29D9C01700AE065C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE078E1229D9C01700AE065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE078E1429D9C01700AE065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE549A4129E0E2C9001FAFEC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CE549A4429E0E30B001FAFEC /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		CE549A4729E0E347001FAFEC /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		CE549A4A29E0F482001FAFEC /* MyStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStrings.swift; sourceTree = "<group>"; };
+		CED490B729DE1E780028F83F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +76,12 @@
 				CE078E0629D9C01600AE065C /* AppDelegate.swift */,
 				CE078E0829D9C01600AE065C /* SceneDelegate.swift */,
 				CE078E0A29D9C01600AE065C /* ViewController.swift */,
+				CED490B729DE1E780028F83F /* SecondViewController.swift */,
+				CE549A4129E0E2C9001FAFEC /* ThirdViewController.swift */,
+				CE549A4429E0E30B001FAFEC /* ForthViewController.swift */,
+				CE549A4729E0E347001FAFEC /* FifthViewController.swift */,
 				CE078E0C29D9C01600AE065C /* Main.storyboard */,
+				CE549A4A29E0F482001FAFEC /* MyStrings.swift */,
 				CE078E0F29D9C01700AE065C /* Assets.xcassets */,
 				CE078E1129D9C01700AE065C /* LaunchScreen.storyboard */,
 				CE078E1429D9C01700AE065C /* Info.plist */,
@@ -88,7 +103,6 @@
 				3373ECB03DF8839710F29BCE /* Pods-HWs.debug.xcconfig */,
 				6C10559432F19D573A363CCB /* Pods-HWs.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,9 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE549A4529E0E30B001FAFEC /* ForthViewController.swift in Sources */,
 				CE078E0B29D9C01600AE065C /* ViewController.swift in Sources */,
+				CE549A4B29E0F482001FAFEC /* MyStrings.swift in Sources */,
+				CED490B829DE1E780028F83F /* SecondViewController.swift in Sources */,
+				CE549A4229E0E2C9001FAFEC /* ThirdViewController.swift in Sources */,
 				CE078E0729D9C01600AE065C /* AppDelegate.swift in Sources */,
 				CE078E0929D9C01600AE065C /* SceneDelegate.swift in Sources */,
+				CE549A4829E0E347001FAFEC /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
