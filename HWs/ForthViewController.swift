@@ -32,10 +32,19 @@ class ForthViewController: UIViewController {
         }
         if let fifthModalController = segue.destination as? FifthViewController {
             
+           
+            
             fifthModalController.backGroundColor = .orange
             fifthModalController.word = word
             
         }
+        deleteController(ForthViewController())
+    }
+    func deleteController (_ Controller : UIViewController) {
+        
+        let lastPage = Controller
+        lastPage.dismiss(animated: true) { print ("ManImDead Func")}
+        
     }
     
     /*

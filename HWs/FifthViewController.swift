@@ -33,6 +33,13 @@ class FifthViewController: UIViewController {
             
             thirdModalController.backGroundColor = .blue
         }
+        deleteController(FifthViewController())
+    }
+    func deleteController (_ Controller : UIViewController) {
+        
+        let lastPage = Controller
+        lastPage.dismiss(animated: true) { print ("ManImDead Func")}
+        
     }
     
     /*
