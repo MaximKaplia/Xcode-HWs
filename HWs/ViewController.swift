@@ -6,18 +6,21 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var startButton: UIButton!
     
+    //MARK: - IBOutlets
+    @IBOutlet weak var startButton: UIButton!
+    //MARK: - Override methods
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupButton(startButton)
     }
 
-
+    //MARK: - IBActions
     @IBAction func gameStart(_ sender: UIButton) {
         
         let  storyborad = UIStoryboard(name: "Main", bundle: nil)
@@ -26,11 +29,8 @@ class ViewController: UIViewController {
               let navController = navigationController
               else {return}
         navController.pushViewController(destinationVC, animated: true)
-        
-        
-        
     }
-    
+    //MARK: - Private methods
     private func setupButton(_ button:UIButton) {
         
         button.layer.cornerRadius = button.frame.height / 2
@@ -39,7 +39,16 @@ class ViewController: UIViewController {
     
     private func setupSprite (_ sprite: UIView) {
         
-        
+        sprite.snp.makeConstraints { make in
+            
+            make.width
+                .equalTo(50)
+            make.height
+                .equalTo(100)
+            make.center
+                .equalTo(self.view)
+            
+        }
         
     }
 }
