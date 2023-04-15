@@ -48,9 +48,12 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="C">
+                                        <state key="normal" title="AC">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="additionalButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="bq3-WX-Ube"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQj-gc-XZy">
                                         <rect key="frame" x="107.66666666666669" y="8" width="83.333333333333314" height="83.333333333333329"/>
@@ -63,8 +66,11 @@
                                         <state key="normal" title="+/-">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="additionalButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="hV0-gq-hae"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpx-vT-VjM">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpx-vT-VjM">
                                         <rect key="frame" x="207" y="8" width="83.666666666666686" height="83.333333333333329"/>
                                         <color key="backgroundColor" red="0.66212964060000001" green="0.66222697500000005" blue="0.66210836169999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -75,6 +81,9 @@
                                         <state key="normal" title="%">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="additionalButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="bvO-YN-QrP"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -109,6 +118,9 @@
                                         <state key="normal" title="7">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="rvR-P3-ea6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLa-iJ-LS1">
                                         <rect key="frame" x="107.66666666666669" y="8" width="83.333333333333314" height="83.666666666666671"/>
@@ -121,6 +133,9 @@
                                         <state key="normal" title="8">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="YPG-yg-WjJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCZ-PO-eQX">
                                         <rect key="frame" x="207" y="8" width="83.666666666666686" height="83.666666666666671"/>
@@ -133,6 +148,9 @@
                                         <state key="normal" title="9">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="ghz-Vz-PYo"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6U-N1-bgG">
                                         <rect key="frame" x="8" y="107.66666666666663" width="83.666666666666671" height="83.333333333333314"/>
@@ -145,6 +163,9 @@
                                         <state key="normal" title="4">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="gx9-AX-0v4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DD-X5-Q8K">
                                         <rect key="frame" x="107.66666666666669" y="107.66666666666663" width="83.333333333333314" height="83.333333333333314"/>
@@ -157,6 +178,9 @@
                                         <state key="normal" title="5">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="Mcc-qh-Pbs"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0pl-qC-oe8">
                                         <rect key="frame" x="207" y="107.66666666666663" width="83.666666666666686" height="83.333333333333314"/>
@@ -169,6 +193,9 @@
                                         <state key="normal" title="6">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="wcP-zn-h4U"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PRQ-No-ft7">
                                         <rect key="frame" x="8" y="207" width="83.666666666666671" height="83.666666666666686"/>
@@ -181,6 +208,9 @@
                                         <state key="normal" title="1">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="6wP-uO-Vg0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkj-yy-sce">
                                         <rect key="frame" x="107.66666666666669" y="207" width="83.333333333333314" height="83.666666666666686"/>
@@ -193,6 +223,9 @@
                                         <state key="normal" title="2">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="5hF-eW-7Kb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gva-vi-Ua2">
                                         <rect key="frame" x="207" y="207" width="83.666666666666686" height="83.666666666666686"/>
@@ -205,6 +238,9 @@
                                         <state key="normal" title="3">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="K4g-3j-X4f"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJW-24-aa1">
                                         <rect key="frame" x="8" y="306.66666666666663" width="183" height="83.333333333333314"/>
@@ -214,6 +250,9 @@
                                         <state key="normal" title="0">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="M2i-Ex-qYu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ink-GL-AFn">
                                         <rect key="frame" x="207" y="306.66666666666663" width="83.666666666666686" height="83.333333333333314"/>
@@ -226,6 +265,9 @@
                                         <state key="normal" title=".">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="numTap:" destination="xaR-8U-0t4" eventType="touchUpInside" id="4RA-d5-aFJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -296,6 +338,9 @@
                                         <state key="normal" title="/">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="5EQ-Nz-DE4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXi-i6-oUu">
                                         <rect key="frame" x="8" y="107.33333333333331" width="83.333333333333329" height="83.666666666666686"/>
@@ -308,6 +353,9 @@
                                         <state key="normal" title="x">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="gAZ-OQ-e0a"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1D-Aa-iqJ">
                                         <rect key="frame" x="8" y="206.99999999999994" width="83.333333333333329" height="83.333333333333314"/>
@@ -320,6 +368,9 @@
                                         <state key="normal" title="-">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="YDF-hK-nWN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDN-Qb-bKt">
                                         <rect key="frame" x="8" y="405.99999999999994" width="83.333333333333329" height="83.333333333333314"/>
@@ -332,6 +383,9 @@
                                         <state key="normal" title="=">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="cJW-yA-CJX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Uw-Pm-51D">
                                         <rect key="frame" x="8" y="306.33333333333331" width="83.333333333333329" height="83.666666666666686"/>
@@ -344,6 +398,9 @@
                                         <state key="normal" title="+">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signButtons:" destination="xaR-8U-0t4" eventType="touchUpInside" id="kYh-6E-Ppc"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -373,7 +430,7 @@
                                 <rect key="frame" x="8" y="213.66666666666663" width="398" height="103"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EoH-h4-LIi">
-                                        <rect key="frame" x="334" y="-5.3333333333333144" width="56" height="113.33333333333333"/>
+                                        <rect key="frame" x="334" y="-5" width="56" height="113"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="95"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -407,6 +464,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="allClearButton" destination="lrd-dK-eTV" id="al5-wY-qFX"/>
+                        <outlet property="numLable" destination="EoH-h4-LIi" id="Qg2-oo-pz4"/>
+                        <outlet property="numView" destination="oso-vA-lTt" id="Glh-8Z-qvF"/>
                         <outletCollection property="Buttons" destination="lrd-dK-eTV" collectionClass="NSMutableArray" id="Fiu-n9-D28"/>
                         <outletCollection property="Buttons" destination="jQj-gc-XZy" collectionClass="NSMutableArray" id="a4y-qN-NjF"/>
                         <outletCollection property="Buttons" destination="tpx-vT-VjM" collectionClass="NSMutableArray" id="XYk-3C-ik6"/>
@@ -426,6 +486,17 @@
                         <outletCollection property="Buttons" destination="JJW-24-aa1" collectionClass="NSMutableArray" id="1W8-gd-4xj"/>
                         <outletCollection property="Buttons" destination="Ink-GL-AFn" collectionClass="NSMutableArray" id="3nl-66-3rh"/>
                         <outletCollection property="Buttons" destination="iDN-Qb-bKt" collectionClass="NSMutableArray" id="UPP-Zg-gSa"/>
+                        <outletCollection property="numButtons" destination="Vgl-3E-RlB" collectionClass="NSMutableArray" id="eRz-mg-eVf"/>
+                        <outletCollection property="numButtons" destination="TLa-iJ-LS1" collectionClass="NSMutableArray" id="cdx-hX-SwE"/>
+                        <outletCollection property="numButtons" destination="OCZ-PO-eQX" collectionClass="NSMutableArray" id="u4j-g9-GoP"/>
+                        <outletCollection property="numButtons" destination="N6U-N1-bgG" collectionClass="NSMutableArray" id="2GK-N7-K6m"/>
+                        <outletCollection property="numButtons" destination="2DD-X5-Q8K" collectionClass="NSMutableArray" id="y39-kO-Gdj"/>
+                        <outletCollection property="numButtons" destination="0pl-qC-oe8" collectionClass="NSMutableArray" id="VCJ-yX-Igc"/>
+                        <outletCollection property="numButtons" destination="PRQ-No-ft7" collectionClass="NSMutableArray" id="rsG-Vd-bSH"/>
+                        <outletCollection property="numButtons" destination="Nkj-yy-sce" collectionClass="NSMutableArray" id="aIZ-8I-Tvb"/>
+                        <outletCollection property="numButtons" destination="gva-vi-Ua2" collectionClass="NSMutableArray" id="5EU-QE-VB0"/>
+                        <outletCollection property="numButtons" destination="JJW-24-aa1" collectionClass="NSMutableArray" id="ZSd-Mw-dUC"/>
+                        <outletCollection property="numButtons" destination="Ink-GL-AFn" collectionClass="NSMutableArray" id="FpA-Jz-zL0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guM-IT-s5i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
